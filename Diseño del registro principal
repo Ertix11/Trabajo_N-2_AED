@@ -1,0 +1,13 @@
+FIGURA = Registro
+    CodigoSKU: AN(15);          // Clave Primaria
+    Personaje: AN(50);          // Campo Contenido
+    Juego: AN(50);              //Campo Contenido
+    TipoFigura: AN(30);         // Campo Contenido
+    Faccion: ("Héroe", "Villano"); // Campo Contenido
+    Precio: Real;               // Campo Contenido
+    Stock: Entero;              // Campo Contenido
+    Dimensiones = Registro      // Campo Continente
+        Alto: Real;
+        Peso: Real;
+    Fin Registro;
+Fin Registro;
